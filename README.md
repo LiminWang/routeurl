@@ -5,3 +5,10 @@
 
 + libpcap
 + libdnet  http://code.google.com/p/libdnet/
+
+
+## 使用
+
++ ./configure
++ make
++ sudo ./routeurl eth0
