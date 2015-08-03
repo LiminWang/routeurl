@@ -125,7 +125,7 @@ parse_http_req_header(const u_char *data,
       c = lowcase[ch];
       if (c)
 	break;
-      if (c == '\0') {
+      if (ch == '\0') {
 	return 1;
       }
       break;
